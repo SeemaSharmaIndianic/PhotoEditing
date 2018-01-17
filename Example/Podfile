@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PhotoEditing_Example' do
+  pod 'PhotoEditing', :path => '../'
+
+  target 'PhotoEditing_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
